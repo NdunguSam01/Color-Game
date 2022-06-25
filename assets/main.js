@@ -48,8 +48,7 @@ reset.addEventListener("click", function()
 {
     console.log("clicked")
     color = generateRandomColors(numofSquares);//Generating all new colors
-    // pick new random color
-    pickedColor = pickColor();//Pick a new random color
+    pickedColor = pickColor();//Picking a new random color
     displaycolor.textContent =pickedColor;//Displating picked color
     reset.textContent= "New Colors"
 
